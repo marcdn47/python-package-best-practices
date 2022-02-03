@@ -41,9 +41,10 @@ please review the [package setup] section of the lessons.
 │   ├── data                        <- Sample additional data (non-code) which can be packaged. Just an example, delete in production
 │   │   ├── README.md
 │   │   └── look_and_say.dat
-│   └── tests                       <- Unit test directory with sample tests
-│       ├── __init__.py
-│       └── test_molecool.py
+│   |── tests                       <- Unit test directory with sample tests
+│   |   ├── __init__.py
+│   |   └── test_molecool.py
+|   |__ functions.py  
 ├── devtools                        <- Deployment, packaging, and CI helpers directory
 │   ├── README.md
 │   ├── conda-envs                  <- Conda environments for testing
